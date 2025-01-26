@@ -1,0 +1,48 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .login-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .register-btn {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .register-btn:hover {
+    background-color: #1e7e34;
+  }
+  
