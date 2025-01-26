@@ -10,7 +10,7 @@ function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/auth/register', { username, password, role });
+      await axios.post('https://account-management-backend-l5un.onrender.com/api/auth/register', { username, password, role });
       alert('User registered');
     } catch (err) {
       console.error(err);
