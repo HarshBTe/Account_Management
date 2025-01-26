@@ -11,7 +11,7 @@ function Dashboard() {
       if (!token) return;
 
       try {
-        const res = await axios.get('http://localhost:5000/api/users/me', {
+        const res = await axios.get('https://account-management-backend-l5un.onrender.com/api/users/me', {
           headers: {
             Authorization: token,
           },
